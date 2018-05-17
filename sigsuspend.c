@@ -33,6 +33,6 @@ int main(void){
 	
 	if(sigprocmask(SIG_SETMASK,&oldmask,NULL)<0)
 			perror("SUG_SETMASK error");
-
+	abort();
 	exit(0);
 }
